@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product</title>
+    <link href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css" rel="stylesheet" />
+
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <!-- Custom StyleSheet -->
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="product.css">
+</head>
+<body>
+    <header class="header">
+        <nav>
+            <h1 id="welcome-heading">Welcome to Kakap Store</h1>
+            <ul>
+                <li><a href="./index.html">HOME</a></li>
+                <li><a href="./about.html">ABOUT US</a></li>
+                <li><a href="./product.html">PRODUCT</a></li>
+                <li><a href="./contact.html">CONTACT US</a></li>
+            </ul>
+        </nav>
+
+    <!-- Popular Products -->
+    <section class="section">
+        <div class="h">
+            <h1>Popular <span>Products</span></h1>
+        </div>
+        <div class="ac-center box">
+            <div class="ac">
+                <div class="img-cover">
+                    <img src="1.jpg" alt="" />
+                </div>
+                <p>chicago cubs MLB</p>
+                <div class="rating">
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bx-star"></i>
+                    <button onclick="addToCart('chicago cubs MLB',150)">Add to cart</button>
+                </div>
+                <div class="price">150</div>
+            </div>
+
+            <div class="ac">
+                <div class="img-cover">
+                    <img src="2.jpg" alt="" />
+                </div>
+                <p>handcuffs unisex cotton</p>
+                <div class="rating">
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bx-star"></i>
+                    <button onclick="addToCart('handcuffs unisex cotton',200)">Add to cart</button>
+                </div>
+                <div class="price"> 200</div>
+            </div>
+
+            <div class="ac">
+                <div class="img-cover">
+                    <img src="3.jpg" alt="" />
+                </div>
+                <p>mens baseball cap</p>
+                <div class="rating">
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bx-star"></i>
+                    <button onclick="addToCart('mens baseball cap',100)">Add to cart</button>
+                </div>
+                <div class="price">100</div>
+            </div>
+
+            <div class="ac">
+                <div class="img-cover">
+                    <img src="4.jpg" alt="" />
+                </div>
+                <p>converse unisex cap</p>
+                <div class="rating">
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bx-star"></i>
+                    <button onclick="addToCart('converse unisex cap',150)">Add to cart</button>
+                </div>
+                <div class="price"> 150</div>
+            </div>
+
+            <div class="ac">
+                <div class="img-cover">
+                    <img src="5.avif" alt="" />
+                </div>
+                <p>BMW BB cap</p>
+                <div class="rating">
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bx-star"></i>
+                    <button onclick="addToCart('BMW BB cap',130)">Add to cart</button>
+                </div>
+                <div class="price">130</div>
+            </div>
+
+            <div class="ac">
+                <div class="img-cover">
+                    <img src="6.jpg" alt="" />
+                </div>
+                <p>new york yankess</p>
+                <div class="rating">
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bx-star"></i>
+                    <button onclick="addToCart('new york yankess',220)">Add to cart</button>
+                </div>
+                <div class="price">220</div>
+            </div>
+        </div>
+    </section>
+
+        <!-- New Arrivals -->
+        <section class="section">
+            <div class="h">
+                <h1><span>New</span> Arrivals</h1>
+            </div>
+            <div class="ac-center box">
+                <div class="ac">
+                    <div class="img-cover">
+                        <img src="7.webp" alt="" />
+                    </div>
+                    <p>addidas cap</p>
+                    <div class="rating">
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <button onclick="addToCart('addidas cap',100)">Add to cart</button>
+                    </div>
+                    <div class="price">100</div>
+                </div>
+    
+                <div class="ac">
+                    <div class="img-cover">
+                        <img src="8.webp" alt="" />
+                    </div>
+                    <p>bee cap</p>
+                    <div class="rating">
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bx-star"></i>
+                        <button onclick="addToCart('bee cap',80)">Add to cart</button>
+                    </div>
+                    <div class="price">80</div>
+                </div>
+    
+                <div class="ac">
+                    <div class="img-cover">
+                        <img src="9.webp" alt="" />
+                    </div>
+                    <p>helags cap </p>
+                    <div class="rating">
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bx-star"></i>
+                        <button onclick="addToCart('helags cap',140)">Add to cart</button>
+                    </div>
+                    <div class="price">140</div>
+                </div>
+            </div>
+            <script src="product.js"></script>
+        </section>
+</body>
+</html>

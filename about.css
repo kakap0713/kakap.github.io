@@ -1,0 +1,24 @@
+.container1 {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+  }
+
+  .about-us {
+    background-color: #fff;
+    padding: 80px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-image: url(back1.jpg);
+    background-position:center;
+  }
+
+  h2 {
+    color: #ffffff;
+  }
+
+  p{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-family: "Lucida Console", "Courier New", monospace;
+  }
